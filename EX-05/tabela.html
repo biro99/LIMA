@@ -90,7 +90,67 @@
                 <td><h1>3</h1></td>
             </tr>
         </thead>
+    </table>
+
+    <form metod="POST" action="processar.php">
+        <h1></h1>
+        <fieldset>
+            <legend>Dados do seu time</legend>
+
+            <label for ="Qual seu time">Qual seu time:</label>
+            <input type="text" id="time" name="time" required>
+
+            <br><br>
+
+            <label for="Seu time tem mundial:">Seu time tem mundial:</label>
+            <input type="text" id="mundial" name="mundial" required>
+
+            <br><br>
+
+            <label for ="Quantos titulos brasileiro seu time possui">Quantos títulos brasileiros seu time possui:</label>
+            <input type="text" id="titulos" name="titulos" required>
+
+            <br><br>
+
+            <label for="deixe seu comentario:">Deixe seu comentário:</label>
+            <input type="text" id="comentario" name="comentario" required>
+        </fieldset>
     
-       
+        <br><br>
+
+        <fieldset>
+            <legend>Estou feliz</legend>
+            <label for="sou feliz">
+                <input type="checkbox" id="sou feliz" name="sou feliz" required>
+            Sou feliz
+                <label for="sou feliz">
+                <input type="checkbox" id="sou feliz" name="sou feliz" required>
+           Estou feliz
+           <label for="sou feliz">
+                <input type="checkbox" id="sou feliz" name="sou feliz" required>
+           Sou muito alegre
+            </label>
+        </fieldset>
+        <br><br>
+
+        <fieldset>
+            <legend>Pagamento</legend>
+            <label for="Pagamento">
+                <input type="checkbox" id="Pagamento" name="Pagamento" required>
+            Cartão de crédito
+                <label for="Pagamento">
+                <input type="checkbox" id="Pagamento" name="Pagamento" required>
+           Cartão de débito
+           <label for="Pagamento">
+                <input type="checkbox" id="Pagamento" name="Pagamento" required>
+           Pix
+            <label for="Pagamento">
+                <input type="checkbox" id="Pagamento" name="Pagamento" required>
+           Vale Bombom
+            </label>
+        </fieldset>
+        <br><br>
+        <button type="submit">enviar</button>
 </body>
+
 </html>
